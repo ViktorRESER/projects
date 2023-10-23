@@ -1,0 +1,287 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+}
+
+li{
+    padding-left: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #131313;
+    font-family: 'Inter', sans-serif;
+}
+
+p{
+    margin: 0;
+}
+
+.container{
+    max-width:1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    padding-right: 70px;
+}
+
+.menu__list{
+    display: flex;
+}
+
+.menu__item{
+    padding: 0 20px;
+}
+
+.menu__item + .menu__item{
+    padding-left: 10px;
+}
+
+.menu__link{
+    text-transform: uppercase;
+    padding: 43px 20px;
+    transition: all .3s;
+}
+
+.menu__link:hover{
+    background-color: #131313;
+    color: #fff
+}
+
+.bike{
+    padding: 100px 0 150px;
+}
+
+.bike__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bike__column-slider{
+    flex-basis: 630px;
+    margin-left: 30px;
+    max-width: 630px;
+}
+
+.bike__title{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    margin: 72px 0 5px;
+}
+
+.bike__subtitle{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #6f6f6f;
+    margin: 0 0 60px;    
+}
+
+.bike__text{
+    margin-bottom: 20px;
+    max-width: 420px;
+}
+
+.bike__link{
+    margin-top: 80px;
+    display: inline-block;
+    background-color: #131313;
+    color: #fff;
+    padding: 28px 81px;
+    text-transform: uppercase;
+    max-width: 420px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.1em;
+}
+
+.bike-slider .slick-dots{
+    right: 0;
+    top: 50px;
+}
+
+.slick-dots{
+    position: absolute;
+}
+
+.slick-dots li + li{
+    padding-top: 10px;
+}
+
+.slick-dots button{
+    font-size: 0;
+    padding: 0;
+    border: none;
+    background-color: #131313;
+    width: 2px;
+    height: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.slick-dots button:hover,
+.slick-active button{
+    background-color: #ff4040;
+}
+
+.bike__list{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bike__list-item{
+    font-weight: 700;
+    text-transform: uppercase;
+    min-width: 160px;
+    text-align: center;
+}
+
+.bike__list-item span{
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-transform: lowercase;
+}
+
+.info{
+    margin-bottom: 150px;
+}
+
+.info__inner{
+    display: flex;  
+}
+
+.info__img{
+    padding-right: 60px;
+    flex-basis: 570px;
+    object-fit: cover;
+}
+
+.info__list{
+    flex-basis: 490px;
+}
+
+.info__item-title{
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 0 10px;
+    text-transform: uppercase; 
+}
+
+.info__item-title:not(:first-child){
+    padding-top: 50px;
+}
+
+.info__item-text{ 
+    max-width: 450px;
+    margin: 0;
+}
+
+.characteristics{
+    margin-bottom: 150px;
+}
+
+.characteristics__head{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin: 0 0 40px;
+    
+}
+
+.characteristics__inner{
+    display: flex;
+    
+}
+
+.characteristics__items{
+    flex-basis: 570px;
+}
+
+.characteristics__title{
+    background-color: #131313;
+    color:#fff;
+    width: 570px;
+    text-transform: uppercase;
+    line-height: 22px;
+    padding: 2px 0 3px;
+    font-weight: 700;
+    
+}
+
+.characteristics__list {
+    padding: 40px 60px 30px 0;
+    
+}
+
+.characteristics__line{
+    display: flex;
+    justify-content: space-between;
+    height: 16.8px;
+    
+    padding-top: 5px;
+}
+
+.characteristics__name{
+    flex-basis: 285px;
+    padding-right: 20px;
+}
+
+.characteristics__descr{
+    flex-basis: 285px;
+}
+
+.characteristics__img{
+    width: 570px;
+    height: 401px;
+    margin-top: 180px;
+}
+
+.slider{
+    margin-bottom: 50px;
+}
+
+.slider__items .slick-dots{
+    top: 0;
+    left: 0;
+}
+
+.slider__item{
+    padding-left: 50px;
+}
+
+.slider__img{
+    width: 1150px;
+}
+
+.price{
+    margin-bottom: 100px;
+}
